@@ -59,3 +59,7 @@ Route::get('/registro', function () {
 Route::get('/single', function () {
     return view('single');
 });
+
+Route::get('/dashboard', function () {
+    return view('index');
+});
