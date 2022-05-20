@@ -16,7 +16,6 @@
 						</div>
 						<div class="top-nav">
 							<span class="menu"><img src="images/menu.png" alt=""> </span>
-
 							<ul>
 								<li class="active"><a class="color1" href="index.html">Inicio</a></li>
 								<li><a class="color2" href="games.html">Juegos</a></li>
