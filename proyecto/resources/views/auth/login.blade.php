@@ -13,7 +13,7 @@
 				<div class="container">
 					<div class="head-top">
 						<div class="logo">
-                            
+
 						</div>
 						<div class="top-nav">
 							<span class="menu"><img src="images/menu.png" alt=""> </span>
@@ -103,12 +103,12 @@
                 </x-button>
             </div>
         </form>
-        <div class="footer">
+    </x-auth-card>
+</x-guest-layout> 
+<div class="footer">
 
 
 <p class="footer-class">&copy; 2022 Chur Games. Diseñado por <a href="mailto:juanpamoro18@gmail.com" target="_blank">Juan Pablo Montoya</a>
 </p>
 
-</div>
-    </x-auth-card>
-</x-guest-layout>      
+</div>     
