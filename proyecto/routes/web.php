@@ -14,37 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
 
-Route::get('/index.html', function () {
-    return view('index');
-});
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
-Route::get('/games.html', function () {
-    return view('games');
-});
-
-Route::get('/api.html', function () {
-    return view('api');
-});
-
-Route::get('/blog.html', function () {
-    return view('blog');
-});
-
-Route::get('/contact.html', function () {
-    return view('contact');
-});
-
-Route::get('/logueo.html', function () {
-    return view('logueo');
-});
-
-Route::get('/registro', function () {
-    return view('registro');
-});
-
-Route::get('/single', function () {
-    return view('single');
-});
+require __DIR__.'/auth.php';
