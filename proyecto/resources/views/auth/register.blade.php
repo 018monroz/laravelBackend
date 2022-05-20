@@ -4,6 +4,45 @@
 <link rel="stylesheet" href="{{URL::asset('css/log.css')}}">
 <link rel="stylesheet" href="{{URL::asset('css/style.css')}}">
 
+<!--header-->
+<header>
+		<div class="header">
+
+			<div class="header-top">
+				<div class="container">
+					<div class="head-top">
+						<div class="logo">
+                            
+						</div>
+						<div class="top-nav">
+							<span class="menu"><img src="images/menu.png" alt=""> </span>
+
+							<ul>
+								<li class="active"><a class="color1" href="index.html">Inicio</a></li>
+								<li><a class="color2" href="games.html">Juegos</a></li>
+								<li><a class="color3" href="registro"  >API</a></li>
+								<li><a class="color5" href="blog.html">Blog</a></li>
+								<li><a class="color6" href="contact.html">Contacto</a></li>
+								<div class="clearfix"> </div>
+							</ul>
+
+							<!--script-->
+							<script>
+								$("span.menu").click(function () {
+									$(".top-nav ul").slideToggle(500, function () {
+									});
+								});
+							</script>
+
+						</div>
+
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
@@ -63,3 +102,10 @@
         </form>
     </x-auth-card>
 </x-guest-layout>
+<div class="footer">
+
+
+<p class="footer-class">&copy; 2022 Chur Games. Diseñado por <a href="mailto:juanpamoro18@gmail.com" target="_blank">Juan Pablo Montoya</a>
+</p>
+
+</div>
