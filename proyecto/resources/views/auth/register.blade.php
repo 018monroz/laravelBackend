@@ -1,9 +1,15 @@
+<link rel="stylesheet" href="{{URL::asset('css/app.css')}}">
+<link rel="stylesheet" href="{{URL::asset('css/bootstrap.css')}}">
+<link rel="stylesheet" href="{{URL::asset('css/component.css')}}">
+<link rel="stylesheet" href="{{URL::asset('css/log.css')}}">
+<link rel="stylesheet" href="{{URL::asset('css/style.css')}}">
+
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
-            <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-            </a>
+            <h1>
+                REGISTRESE
+</h1>
         </x-slot>
 
         <!-- Validation Errors -->
