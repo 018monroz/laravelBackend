@@ -38,7 +38,7 @@ Route::get('/games.html', function () {
 
 Route::get('/api.html', function () {
     return view('api');
-});
+})->middleware(['auth'])->name('api');
 
 Route::get('/blog.html', function () {
     return view('blog');
